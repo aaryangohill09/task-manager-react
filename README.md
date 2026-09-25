@@ -1,16 +1,51 @@
-# React + Vite
+# Task Manager React
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive Task Manager application built with React and Vite.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add new tasks
+- Mark tasks as completed
+- Undo completed tasks
+- Delete tasks
+- Search tasks
+- Filter tasks by All, Pending and Completed
+- Clear completed tasks
+- Task statistics
+- Local Storage persistence
+- Responsive design
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- Vite
+- HTML
+- CSS
+- Git
+- GitHub
+- Local Storage
 
-## Expanding the Oxlint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```text
+task-manager-react/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── TaskForm.jsx
+│   │   ├── SearchBar.jsx
+│   │   ├── TaskStats.jsx
+│   │   ├── FilterButtons.jsx
+│   │   └── TaskCard.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── index.html
+├── package.json
+└── README.md
